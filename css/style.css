@@ -76,6 +76,10 @@ a {
     }
 }
 
+.header a::after {
+    display: none;
+}
+
 @media (max-width: 600px) {
     .header-menu {
         gap: 12px;
