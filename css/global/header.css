@@ -38,7 +38,8 @@
 
 }
 
-.header-menu a:hover:after {
+.header-menu a:hover::after,
+.header-menu a.ativo::after{ /*adicionado pelo para sincornizar com arquivo .js*/
     width: 100%;
 }
 
